@@ -1,0 +1,51 @@
+.App {
+  display: flex;
+  width: 100vw;
+  gap:50px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.box{
+  min-height: 400px;
+  padding: 0 20px 20px 20px;
+  border-radius: 15px;
+}
+
+.box-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-name{
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.task-name{
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-info{
+  display: flex;
+}
+
+.error {
+  border: red 1px solid;
+}
+
+.error-message{
+  color: red;
+}
+
+.active-filter{
+  background-color: aquamarine;
+}
